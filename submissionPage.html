@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Message Submitted!</title>
+    <link rel="stylesheet" href="styleSubmissionPage.css">
+</head>
+
+<body>
+  <h1>Message Submitted! Thank you!</h1>
+
+  <form action="/loginPage.html" method="post" target="_self">
+      <label>
+          <input class="buttonStyle" type="submit" value="Log Out">
+      </label>
+  </form>
+
+<script>
+  alert("Message Received! Thank you " + localStorage.getItem("usernameNew") + "!");
+</script>
+
+</body>
+</html>
